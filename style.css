@@ -8,8 +8,8 @@ font-family: 'Sarala', sans-serif;
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    --bg-color: #edf2ff;
+:root {
+    --bg-color: #e5eaf8;
     --text-color: #00002f;
     --primary-color: #4263eb;
     --primary-color-dark: #364fc7;
@@ -17,12 +17,12 @@ html {
 a {
     text-decoration: none;
 }
-body.dark {
+.dark {
     --bg-color: #00002f;
     --text-color: #ffffff;
 }
-body.pink {
-    --bg-color: #edf2ff;
+.pink {
+    --bg-color: #fcfcfc;
     --text-color: #1f0008;
     --primary-color: #d6336c;
     --primary-color-dark: #d61e40;
